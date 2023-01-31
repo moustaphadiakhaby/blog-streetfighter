@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "streetfighter";
+  src: url("./assets/fonts/ActofRejection.eot");
+  src: url("./assets/fonts/ActofRejection.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/ActofRejection.woff2") format("woff2"),
+    url("./assets/fonts/ActofRejection.woff") format("woff"),
+    url("./assets/fonts/ActofRejection.ttf") format("truetype"),
+    url("./assets/fonts/ActofRejection.svg#ActofRejection") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
