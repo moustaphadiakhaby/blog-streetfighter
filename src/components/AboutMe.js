@@ -7,6 +7,7 @@ const AboutMe = (props) => {
     <div className="aboutme">
       <ItemTitle name={props.name} />
       <ItemPicture img={props.img} />
+      <ItemPicture img={props.img2} />
       <ItemDescription desc={props.desc} />
     </div>
   );
