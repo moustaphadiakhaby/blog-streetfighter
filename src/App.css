@@ -16,9 +16,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   height: 160px;
+}
+
+.logo {
+  height: 100%;
+}
+
+.logo img {
+  height: 100%;
 }
 
 h1 {
@@ -237,5 +244,9 @@ p {
   .img:nth-child(2) img {
     object-position: top;
     object-position: 0px -50px;
+  }
+
+  .headertext {
+    display: none;
   }
 } ;
