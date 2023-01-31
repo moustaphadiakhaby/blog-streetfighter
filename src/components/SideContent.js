@@ -1,5 +1,5 @@
 import AboutMe from "./AboutMe";
-import guile from "../assets/img/guile.png";
+import guile from "../assets/img/guilepose.jpg";
 
 const SideContent = () => {
   return (

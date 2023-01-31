@@ -7,8 +7,7 @@ body {
   margin: 0px auto;
   padding: 15px;
   box-sizing: border-box;
-  width: 1280px;
-  height: 100px;
+  width: 1140px;
   background-color: none;
   color: white;
 }
@@ -56,7 +55,10 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 50px;
+  height: max-content;
+  padding: 20px;
+  box-sizing: border-box;
+  gap: 50px;
 }
 
 .navigation.container {
@@ -168,8 +170,73 @@ p {
   height: 200px;
 }
 
+.img:nth-child(2) {
+  height: 400px;
+  object-position: right;
+}
+
 .img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
+@media (max-width: 1240px) {
+  .container {
+    width: 90vw;
+  }
+  .sidecontent {
+    min-width: 250px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 85vw;
+  }
+
+  .maincontent {
+    flex: 2;
+  }
+
+  .sidecontent {
+    min-width: 200px;
+  }
+
+  a {
+    font-size: 14.7px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column-reverse;
+    max-width: 500px;
+  }
+
+  .sidecontent {
+    min-width: none;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .navigation {
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 20px;
+    gap: 5px;
+    width: 45vw;
+  }
+
+  .img:nth-child(2) {
+    height: 200px;
+  }
+
+  .img:nth-child(2) img {
+    object-position: top;
+    object-position: 0px -50px;
+  }
+} ;
