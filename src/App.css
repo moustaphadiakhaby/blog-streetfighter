@@ -1,5 +1,6 @@
 body {
   font-family: "roboto", "sans-serif";
+  background-color: #7b1833;
   background: url("./assets/img/bgd.jpg") fixed no-repeat;
 }
 
@@ -168,6 +169,7 @@ p {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  text-align: center;
 }
 
 .footer span {
@@ -243,8 +245,12 @@ p {
 }
 
 @media (max-width: 768px) {
-  .content {
-    min-width: 400px;
+  .container {
+    width: 95vw;
+  }
+
+  .navigation.container {
+    min-width: 200px;
   }
 
   .links {
